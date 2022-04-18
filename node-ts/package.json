@@ -1,0 +1,28 @@
+{
+  "name": "name",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "start:dev": "env-cmd -f .env.development nodemon src/index.ts",
+    "start:test": "env-cmd -f .env.development ts-node src/index.ts",
+    "start": "node dist"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^17.0.24",
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "tslint": "^6.1.3",
+    "morgan": "^1.10.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "node": "^17.7.2"
+  }
+}
