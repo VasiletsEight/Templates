@@ -1,10 +1,13 @@
-#Templates project
+Templates project
+========================
 
-##Description
+Description
+-------------------------
 
 >Repository for storing different templates
 
-##Instruction
+Instruction
+-------------------------
 **How to clone a single file from a project**
 
 (https://askubuntu.com/a/729798/1588016 "Link to article")
